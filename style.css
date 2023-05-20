@@ -1,0 +1,182 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root{
+    --cor0:#124A7A ;
+    --cor1:#71BAFB ;
+    --cor2: #2597FA;
+    --cor3: #375B7A;
+    --cor4: #1D77C6;
+
+    --font-padrao: Arial, Helvetica, Sans-serif ;
+    --font-destaque: 'Bebas Neue', "cursive";;
+
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body{
+    font-family: var(--font-padrao);
+}
+
+header{
+    font-family: var(--font-destaque);
+    background-color: var(--cor4);
+    padding: 10px;
+    color: white;
+    text-align: center;
+
+}
+header h1 {
+    margin-bottom: 3px;
+    font-size: 3em;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.239);
+}
+header p {
+    font-size: 1.3em;
+}
+nav{
+    background-color: var(--cor1)
+    ;
+    padding: 3px;
+}
+nav a{
+   text-decoration: none;
+   color: black;
+   padding: 5px;
+
+}
+nav a:hover{
+    background-color: orange ;
+    color: rgba(255, 255, 255, 0.858);
+    text-decoration: underline;
+    border-radius: 2px;
+    padding: 1px;
+    
+}
+input   {
+    width: 100px;
+    height: 20px;
+    border-radius: 3px;
+    font-size: 1.0em;
+}
+
+main{
+    padding: 20px;
+}
+
+main section{
+    background-color: var(--cor3);
+}
+section{
+    
+    padding: 0px;
+    height: 200px;
+    
+}
+main article{
+    padding: 18px;
+}
+main h1{
+    font-family: var(--font-destaque);
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+main p {
+    text-align: justify;
+    text-indent: 20px;
+    line-height: 1.5;
+    padding: 10px;
+}
+main h2{
+    font-family: var(--font-destaque);
+    text-align: center;
+    text-decoration: underline;
+}
+
+#lista {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #71BAFB;
+    border-radius: 0px 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.232);
+    
+}
+#lista h3{
+    background-color: var(--cor3);
+    color: white;
+    margin-bottom: 20px;
+}
+#lista ul {
+    
+    text-align: center;
+    list-style-position: inside;
+}
+
+main h4{
+    padding: 20px;
+}
+main ul {
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+img{
+    padding: 20px;
+    display: block;
+    width: 40%;
+    
+}
+
+div#foto  img {
+    display: inline-block;
+    width: 1%;
+    
+    
+}
+
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 0px;
+}
+footer p{
+    text-align: center;
+}
+
+footer h1 {
+    padding: 5px;
+    margin-bottom: 5px;
+}
+footer ul{
+    
+}
+ 
+footer a{
+    display: inline;
+    color: white;
+    
+}
+footer aside {
+    background-color: rgba(0, 0, 0, 0.783);
+}
